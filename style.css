@@ -16,3 +16,24 @@ figure {
 img {
     width: 100%;
 }
+
+@media only screen and (max-width:968px) {
+    figure {
+        width: 49%;
+    }
+}
+
+@media only screen and (max-width:768px) {
+    figure {
+        width: 100%;
+    }
+}
+
+
+/* Érdekességként, mit lehet még elérni a media query-k használatával? */
+
+/* @media print and (min-width:300px) {
+    img {
+        border: 10px solid red;
+    }
+} */
