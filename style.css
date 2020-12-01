@@ -6,10 +6,35 @@
 
 main {
     width: 100vw;
+    background:#32a87f;
+}
+
+article {
+    text-align:center;
+    padding: 1rem;
+}
+
+h1{
+    padding:1.5rem;
+}
+
+.fullsize {
+    display: block;
+    color: #ebca4b;
+}
+
+.mediumsize{
+    display: none;
+    color: #851c81;
+}
+
+.smallsize{
+    display: none;
+    color: #801a06;
 }
 
 figure {
-    width: 33%;
+    width: 24%;
     display: inline-block;
 }
 
@@ -21,11 +46,35 @@ img {
     figure {
         width: 49%;
     }
+
+    main{
+        background: #279eb0;
+    }
+
+    .fullsize {
+        display: none;
+    }
+
+    .mediumsize{
+        display: block;
+    }
 }
 
 @media only screen and (max-width:768px) {
     figure {
         width: 100%;
+    }
+
+    main{
+        background: #4863e8;
+    }
+
+    .mediumsize{
+        display: none;
+    }
+
+    .smallsize{
+        display: block;
     }
 }
 
